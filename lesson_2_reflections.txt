@@ -1,1 +1,5 @@
 What happens when you initialize a repository? Why do you need to do it?
+When a repository is initiated, a directory called .Git that stores the meta data of commits does get created. Init is needed to create this .Git directory. Without init, a repository cannot be tracked for changes
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+Staging area is the area where all uncommitted files are stored. This is the temporary area where files changed in the repository are moved into prior to making the commits permanent. Presence of a staging area helps in better management of changes/files to be committed, and in gives users the flexibility to roll back any commmit that may be deemed not needed. It also gives users additional time for users to decide whether a commit is definitely needed or not.
+Add the next question here

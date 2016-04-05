@@ -1,1 +1,4 @@
 When would you want to create a remote repository rather than keeping all your work local?
+Some of the scenarios when a remote repository can be used are as follows
+a) When I want to make changes to the repository from any computer, not just from my own
+b) When someone other than me needs to make changes to the repository
